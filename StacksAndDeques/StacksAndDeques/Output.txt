@@ -1,0 +1,190 @@
+**************************************************
+*  PROGRAMMED BY : John Fleischli
+*  CLASS         : CS1D
+*  SECTION       : MW: 3p - 6p
+*  ASSIGNMENT #2 : Stacks and Deques
+**************************************************
+
+Stacks and Queues:
+-----------------------------------------------------------
+| This program will create multiple string and double stacks,
+| queues, and deques. In order it will create a STL stack,
+| singly linked list stack, array queue, and a linked list
+| dequeue. It will also use an Parentheses Algorithm to test
+| if the functions inputed are formatted properly.
+-----------------------------------------------------------
+--
+A|
+--
+String Stack:
+Enter string 1: Tasha
+Enter string 2: JoAnn
+Enter string 3: Lucy
+Enter string 4: Mark
+Enter string 5: Cathy
+Enter string 6: Jane
+
+
+Double Stack:
+Enter double 1: 48.4
+Enter double 2: 887.55
+Enter double 3: 88.88
+Enter double 4: 123.123
+Enter double 5: 8.445
+Enter double 6: 983.3
+Enter double 7: 1.2
+Enter double 8: 354.8
+
+The string stack contains:
+Jane, Cathy, Mark, Lucy, JoAnn, Tasha
+
+The double stack contains:
+354.8, 1.2, 983.3, 8.445, 123.123, 88.88, 887.55, 48.4
+
+
+--
+B|
+--
+Popped Jane from string stack
+Popped Cathy from string stack
+
+Popped 354.8 from double stack
+Popped 1.2 from double stack
+
+After removing Cathy, the string stack contains:
+Mark, Lucy, JoAnn, Tasha
+
+After removing 1.2, the double stack contains:
+983.3, 8.445, 123.123, 88.88, 887.55, 48.4
+
+
+--
+C|
+--
+Singly Linked List String Stack:
+Enter string 1: Tasha
+Enter string 2: JoAnn
+Enter string 3: Lucy
+Enter string 4: Mark
+Enter string 5: Cathy
+Enter string 6: Jane
+
+
+Singly Linked List Double Stack:
+Enter double 1: 48.4
+Enter double 2: 887.55
+Enter double 3: 88.88
+Enter double 4: 123.123
+Enter double 5: 8.445
+Enter double 6: 983.3
+Enter double 7: 1.2
+Enter double 8: 354.8
+
+The Singly Linked List String Stack contains:
+Jane, Cathy, Mark, Lucy, JoAnn, Tasha
+
+The Singly Linked List Double Stack contains:
+354.8, 1.2, 983.3, 8.445, 123.123, 88.88, 887.55, 48.4
+
+
+--
+D|
+--
+Popped Jane from string stack
+Popped Cathy from string stack
+
+Popped 354.8 from double stack
+Popped 1.2 from double stack
+
+After removing Cathy, the singly linked list string stack contains:
+Mark, Lucy, JoAnn, Tasha
+
+After removing 1.2, the singly linked list double stack contains:
+983.3, 8.445, 123.123, 88.88, 887.55, 48.4
+
+
+--
+E|
+--
+Array String Queue:
+Enter string 1: Tasha
+Enter string 2: JoAnn
+Enter string 3: Lucy
+Enter string 4: Mark
+Enter string 5: Cathy
+Enter string 6: Jane
+
+
+Array Double Queue:
+Enter double 1: 48.4
+Enter double 2: 887.55
+Enter double 3: 88.88
+Enter double 4: 123.123
+Enter double 5: 8.445
+Enter double 6: 983.3
+Enter double 7: 1.2
+Enter double 8: 354.8
+
+The Array String Queue contains:
+Tasha, JoAnn, Lucy, Mark, Cathy, Jane
+
+The Array Double Queue contains:
+48.4, 887.55, 88.88, 123.123, 8.445, 983.3, 1.2, 354.8
+
+
+--
+F|
+--
+Removed Tasha from string queue
+Removed JoAnn from string queue
+Removed Lucy from string queue
+Removed Mark from string queue
+Removed Cathy from string queue
+
+Removed 48.4 from double queue
+Removed 887.55 from double queue
+Removed 88.88 from double queue
+Removed 123.123 from double queue
+Removed 8.445 from double queue
+Removed 983.3 from double queue
+Removed 1.2 from double queue
+
+After removing Cathy, the string queue contains:
+Jane
+
+After removing 1.2, the double queue contains:
+354.8
+
+
+--
+G|
+--
+String Deque:
+Enter string 1: Tasha
+Enter string 2: JoAnn
+Enter string 3: Lucy
+Enter string 4: Mark
+Enter string 5: Cathy
+Enter string 6: Jane
+
+Double Deque:
+Enter double 1: 48.4
+Enter double 2: 887.55
+Enter double 3: 88.88
+Enter double 4: 123.123
+Enter double 5: 8.445
+Enter double 6: 983.3
+Enter double 7: 1.2
+Enter double 8: 354.8
+
+The String Deque contains:
+Tasha, JoAnn, Lucy, Mark, Cathy, Jane
+
+The Double Deque contains:
+48.4, 887.55, 88.88, 123.123, 8.445, 983.3, 1.2, 354.8
+
+--
+H|
+--
+Removed Jane from string deque
+

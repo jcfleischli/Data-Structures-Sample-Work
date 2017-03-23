@@ -1,0 +1,100 @@
+**************************************************
+*  PROGRAMMED BY : John Fleischli
+*  CLASS         : CS1D
+*  SECTION       : MW: 3p - 6p
+*  ASSIGNMENT #7 : Double Hashing
+**************************************************
+
+Double Hashing:
+------------------------------------------------------------------------------
+| This program will create a map that holds integer keys and string values.
+| Nodes containing keys and values will be inserted and removed throughout
+| the runtime. The program will use a double hashing algorithm to place the
+| nodes into the correct cell. If the cell is already taken the 2nd hash
+| function will be used. If a matching key is passed in with a different value,
+| the cell in which that key is located will have its value overwritten.
+| When all the keys and values have been stored, the map will print in an
+| organized table by column.
+-------------------------------------------------------------------------------
+
+*******************************************
+NOTE: The data structure used was an Array.
+*******************************************
+
+ Map has been Initialized
+
+ Laguna Niguel has been added.
+ Mission Viejo has been added.
+ San Clemente has been added.
+ Irvine has been added.
+
+ Mission Viejo has been removed.
+
+ Lake Forest has been added.
+ San Diego has been added.
+ Anahiem has been added.
+
+ Lake Forest has been removed.
+
+ Los Angeles has been added.
+ Orange has been added.
+ Palms Springs has been added.
+ Riverside has been added.
+
+ No value at location! Can not remove.
+
+ Brea has been added.
+ Santa Ana has been added.
+ Tustin has been added.
+ Oceanside has been added.
+ La Jolla has been added.
+ Del Mar has been added.
+ Aliso Viejo has been added.
+ Laguna Beach has been added.
+
+ Riverside has been removed.
+
+ Vista has been added.
+ San Diego has been added.
+ San Juan has been added.
+ Dana Point has been added.
+ El Segundo has been added.
+ San Clemente has been added.
+ Laguna Hills has been added.
+
+ Printing Entire List:
+
+Cell  Key      Value
+----  ----  -------------
+ 00    31    Los Angeles
+ 01    32    San Diego
+ 02    00    EMPTY
+ 03    29    Dana Point
+ 04    35    Tustin
+ 05    00    EMPTY
+ 06    99    San Juan
+ 07    42    Vista
+ 08    00    EMPTY
+ 09    88    El Segundo
+ 10    72    Palms Springs
+ 11    11    La Jolla
+ 12    62    Laguna Hills
+ 13    44    Irvine
+ 14    00    EMPTY
+ 15    00    EMPTY
+ 16    00    EMPTY
+ 17    17    Orange
+ 18    18    Del Mar
+ 19    19    Brea
+ 20    49    San Diego
+ 21    00    EMPTY
+ 22    22    Aliso Viejo
+ 23    00    EMPTY
+ 24    00    EMPTY
+ 25    00    EMPTY
+ 26    103   Oceanside
+ 27    00    EMPTY
+ 28    00    EMPTY
+ 29    60    Santa Ana
+ 30    41    San Clemente
+
